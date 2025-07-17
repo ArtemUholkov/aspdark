@@ -1,0 +1,37 @@
+.policy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.policy_upd {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.title-sec {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.cta_wrapper ul {
+  padding-left: 0; /* Removes the default padding on the UL */
+  margin-left: 25px; /* Adds spacing for proper bullet alignment */
+  list-style-position: outside; /* Ensures bullets are outside the content block */
+}
+.line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cta_wrapper li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 5px; /* Use margin instead of padding for better spacing */
+  list-style-type: disc;
+}
