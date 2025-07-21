@@ -69,7 +69,7 @@
 .plus-minus-icon {
   font-family: 'Montserrat', sans-serif;
 
-  color: black;
+  color: var(--white, '#fff');
   font-size: 60px; /* Increased font size */
 
   transition: transform 0.3s ease;

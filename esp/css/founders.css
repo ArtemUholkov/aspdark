@@ -31,7 +31,7 @@
 .founder_item {
   border-radius: 30px;
   border: 1px solid #ff00b8;
-  background: #fff;
+  background: var(--dark-bcg-2, '#090d1');
   padding: 43px 35px 26px 220px;
   display: flex;
   flex-direction: column;

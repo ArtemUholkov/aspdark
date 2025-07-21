@@ -1,5 +1,6 @@
 footer {
   padding: 200px 200px 100px;
+  background-color: var(--Charcoal-gray);
 }
 .footer_wrapper {
   position: relative;
@@ -14,6 +15,7 @@ footer {
   align-items: flex-start;
   justify-content: flex-end;
   gap: 124px;
+  background-color: #181c21;
 }
 
 .footer_wrapper::before {
@@ -58,7 +60,7 @@ footer {
   height: 25px;
 }
 .footer_phone_number {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   max-width: 182px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -93,7 +95,7 @@ footer {
   flex-direction: column;
 }
 .footer_navigation_title {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -102,7 +104,7 @@ footer {
   margin-bottom: 24px;
 }
 .footer_navigation_link {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -112,7 +114,7 @@ footer {
   transition: all 0.3s;
 }
 .footer_navigation_link:hover {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   opacity: 0.6;
   text-decoration: none;
   transition: all 0.3s;
@@ -122,7 +124,7 @@ footer {
   flex-direction: column;
 }
 .footer_h_day {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -130,7 +132,7 @@ footer {
   line-height: 140%;
 }
 .footer_h_hours {
-  color: var(--Charcoal-gray, #111);
+  color: var(--white, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;

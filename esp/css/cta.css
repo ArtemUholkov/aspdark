@@ -30,7 +30,7 @@
 }
 
 .cta_title {
-  color: var(--Charcoal-gray, #111);
+  color: var(--dark-bcg-2, #111);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
