@@ -4,7 +4,7 @@ footer {
 .footer_wrapper {
   position: relative;
   border-radius: 30px; /* Adjust as needed */
-  background-color: #fefefe; /* Solid background inside the border */
+  background-color: var(--dark-bcg-2); /* Solid background inside the border */
   width: 100%;
   margin: 0 auto;
   padding: 70px 150px 70px 150px;

@@ -12,7 +12,7 @@
 .products_product {
   position: relative;
   border-radius: 30px; /* Adjust as needed */
-  background-color: #fefefe; /* Solid background inside the border */
+  background-color: var(  --dark-bcg-2); /* Solid background inside the border */
   width: 600px; /* Maintain the specified width */
   padding: 21px 28px 19px;
   z-index: 1;

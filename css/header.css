@@ -9,7 +9,7 @@ header {
   border-bottom: 1px solid;
   background-clip: padding-box;
   border-image: linear-gradient(to right, #00e0ff, #f700b2) 1;
-  background: var(--Light, #fefefe);
+  background: var(--dark-bcg-1, #fefefe);
 }
 
 .header_wrapper {
