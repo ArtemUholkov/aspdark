@@ -78,7 +78,7 @@
     /* Matches the border-radius of the main element */
     padding: 1px;
     /* Adjust this value for the thickness of the gradient border */
-    background: linear-gradient(to bottom, #ff00b8, #00e0ff);
+    background: var(--main-color);
     /* Gradient from top to bottom */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     /* Masks the content area */
@@ -94,7 +94,7 @@
 }
 
 .benefits_item_title {
-    background: linear-gradient(90deg, #00e0ff 0%, #f700b2 100%);
+    background: var(--main-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,7 +151,7 @@
     right: 100px;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(0, 224, 255, 0.5) 20%, rgba(0, 224, 255, 0.5) 70%);
+    background: var(--main-color);
     filter: blur(200px) brightness(1.1);
     /* Increased blur and brightness */
     transform: translate(-95%, -50%);

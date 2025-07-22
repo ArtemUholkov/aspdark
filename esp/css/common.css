@@ -128,6 +128,7 @@ table {
     --white: #fff;
     --Light: #fefefe;
     --dark-blue: #0d2ed2;
+    --main-color: #f5a302;
 }
 
 /*COLOR VARIABLES END*/
@@ -145,7 +146,7 @@ html {
     align-items: flex-start;
     gap: 8.611px;
     border-radius: 77.5px;
-    border: 2.583px solid var(--light-blue-primary, #00e0ff);
+    border: 2.583px solid var(--main-color);
     transition: all 0.3s;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -154,7 +155,7 @@ html {
 }
 
 .main_button:hover {
-    background-color: var(--light-blue-primary);
+    background-color: var(--main-color);
     transition: all 0.3s;
     text-decoration: none;
 

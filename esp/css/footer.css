@@ -23,7 +23,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, #ff00b8, #00e0ff); /* Gradient from left to right */
+  background: var(--main-color); /* Gradient from left to right */
   border-radius: inherit;
   padding: 1px; /* Thickness of the gradient border */
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);

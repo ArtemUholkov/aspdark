@@ -24,7 +24,7 @@
   margin-bottom: 14px;
 }
 .sema_cross {
-  color: #00e0ff;
+  color: var(--white);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -36,7 +36,7 @@
   text-transform: uppercase;
 }
 .sema_norm {
-  color: var(--hot-pink-primary, #ff00b8);
+  color: var(--main-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -60,7 +60,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, #ff00b8, #00e0ff); /* Gradient border */
+  background: var(--main-color); /* Gradient border */
   border-radius: inherit;
   padding: 1px; /* Thickness of the gradient border */
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -146,7 +146,7 @@
   bottom: 0;
   width: 100px; /* Much smaller size */
   height: 100px; /* Much smaller size */
-  background: radial-gradient(circle, rgba(0, 244, 255, 0.5) 20%, rgba(0, 244, 255, 0.5) 70%);
+  background: var(--main-color);
   filter: blur(50px) brightness(1.1); /* Reduced blur */
   z-index: 1;
   animation: glow7 3s infinite alternate;
