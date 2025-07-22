@@ -1,6 +1,6 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*CSS RESET START*/
@@ -66,55 +66,56 @@ thead,
 tr,
 th,
 td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body {
-  line-height: 1;
-  overflow-x: hidden;
-  overflow-y: scroll;
+    line-height: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 :focus {
-  outline: 0;
+    outline: 0;
 }
 
 ins {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /*CSS RESET END*/
 
 /*COLOR VARIABLES START*/
@@ -127,39 +128,44 @@ table {
     --white: #fff;
     --Light: #fefefe;
     --dark-blue: #0d2ed2;
+    --main-color: #f5a302;
 }
+
 /*COLOR VARIABLES END*/
 
 /*COMMONT STYLES START*/
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-.main_button {
-  max-width: 268px;
-  display: flex;
-  padding: 20px 80px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8.611px;
-  border-radius: 77.5px;
-  border: 2.583px solid var(--light-blue-primary, #00e0ff);
-  transition: all 0.3s;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: var(--Charcoal-gray, #111);
-}
-.main_button:hover {
-  background-color: var(--light-blue-primary);
-  transition: all 0.3s;
-  text-decoration: none;
 
-  color: var(--Light, #fefefe);
+.main_button {
+    max-width: 268px;
+    display: flex;
+    padding: 20px 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8.611px;
+    border-radius: 77.5px;
+    border: 2.583px solid var(--main-color);
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--Charcoal-gray, #111);
 }
+
+.main_button:hover {
+    background-color: var(--main-color);
+    transition: all 0.3s;
+    text-decoration: none;
+
+    color: var(--Light, #fefefe);
+}
+
 body {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 2;
-  background: #f3f1f0;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    background: #181c21;
 }
