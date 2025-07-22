@@ -76,7 +76,7 @@
 }
 
 .separator {
-  background-color: #34b4f4;
+  background-color: var(--main-color);
   height: 1px;
   margin-top: 30px;
   margin-bottom: 30px;

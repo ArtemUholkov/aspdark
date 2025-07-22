@@ -6,9 +6,8 @@ header {
   top: 0;
   z-index: 100;
   transition: all 0.3s;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--main-color);
   background-clip: padding-box;
-  border-image: linear-gradient(to right, #00e0ff, #f700b2) 1;
   background: var(--dark-bcg-1, #fefefe);
 }
 
