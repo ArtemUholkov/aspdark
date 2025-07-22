@@ -162,7 +162,7 @@ header {
         width: 32px;
         height: 3px;
         margin: 5px auto;
-        background-color: var(--white);
+        background-color: var(--main-color);
         transition: 0.2s;
         border-radius: 3px;
     }
@@ -248,7 +248,7 @@ header {
     }
 
     li::marker {
-        color: #00e0ff;
+        color: var(--main-color);
         font-size: 26px;
     }
 
@@ -368,6 +368,8 @@ header {
         height: 40px !important;
         width: 144px !important;
         transition: all 2s;
+        object-fit: contain;
+        object-position: left;
     }
 
     .logo-color {
@@ -401,7 +403,7 @@ header {
         padding-top: 16px;
         padding-bottom: 16px;
         background-color: var(--dark-bcg-1);
-        border-top: #00e0ff 1px solid;
-        border-bottom: #00e0ff 1px solid;
+        border-top: var(--main-color) 1px solid;
+        border-bottom: var(--main-color) 1px solid;
     }
 }
