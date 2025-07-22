@@ -1,11 +1,10 @@
 footer {
   padding: 200px 200px 100px;
-  background-color: var(--Charcoal-gray);
 }
 .footer_wrapper {
   position: relative;
   border-radius: 30px; /* Adjust as needed */
-  background-color: #fefefe; /* Solid background inside the border */
+  background-color: var(--dark-bcg-2); /* Solid background inside the border */
   width: 100%;
   margin: 0 auto;
   padding: 70px 150px 70px 150px;
@@ -15,7 +14,6 @@ footer {
   align-items: flex-start;
   justify-content: flex-end;
   gap: 124px;
-  background-color: #181c21;
 }
 
 .footer_wrapper::before {
@@ -25,7 +23,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, #ff00b8, #00e0ff); /* Gradient from left to right */
+  background: var(--main-color); /* Gradient from left to right */
   border-radius: inherit;
   padding: 1px; /* Thickness of the gradient border */
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -60,7 +58,7 @@ footer {
   height: 25px;
 }
 .footer_phone_number {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   max-width: 182px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -95,7 +93,7 @@ footer {
   flex-direction: column;
 }
 .footer_navigation_title {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -104,7 +102,7 @@ footer {
   margin-bottom: 24px;
 }
 .footer_navigation_link {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -114,7 +112,7 @@ footer {
   transition: all 0.3s;
 }
 .footer_navigation_link:hover {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   opacity: 0.6;
   text-decoration: none;
   transition: all 0.3s;
@@ -124,7 +122,7 @@ footer {
   flex-direction: column;
 }
 .footer_h_day {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -132,7 +130,7 @@ footer {
   line-height: 140%;
 }
 .footer_h_hours {
-  color: var(--white, #111);
+  color: var(--Charcoal-gray, #111);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;

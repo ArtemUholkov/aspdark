@@ -24,7 +24,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to left, #ff00b8, #00e0ff);
+    background: var(--main-color);
     /* Gradient from right to left */
     border-radius: inherit;
     padding: 1px;
