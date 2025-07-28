@@ -130,7 +130,7 @@ h1 {
 
 .main_text {
     max-width: 645px;
-    color: var(--main-color);
+    color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;

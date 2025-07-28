@@ -151,15 +151,14 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: var(--Charcoal-gray, #111);
+    color: #f5a302;
 }
 
 .main_button:hover {
     background-color: var(--main-color);
     transition: all 0.3s;
     text-decoration: none;
-
-    color: var(--Light, #fefefe);
+    color: var(--Charcoal-gray, #111);
 }
 
 body {
