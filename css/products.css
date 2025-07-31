@@ -223,6 +223,7 @@
   }
   .pr_mob_img {
     display: block;
+    width: 180px;
   }
   .abs_img_text_wrap_img {
     display: none;
